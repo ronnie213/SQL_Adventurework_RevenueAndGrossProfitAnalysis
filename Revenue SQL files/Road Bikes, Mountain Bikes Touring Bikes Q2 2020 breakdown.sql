@@ -1,3 +1,5 @@
+/* Objective: QoQ analysis for Revenue by subcategory */
+
 WITH CurrentQtrMargin AS
 	(SELECT
 		CONCAT('Q',EXTRACT(QUARTER FROM orderdate),'-',EXTRACT(YEAR FROM orderdate)) AS quarter_year,
