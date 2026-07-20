@@ -1,3 +1,5 @@
+/* Objective: QoQ analysis for Revenue */
+
 WITH 
 	CurrentQtrSales AS
 	(SELECT
