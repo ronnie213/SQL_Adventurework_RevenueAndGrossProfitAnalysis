@@ -9,9 +9,7 @@ WITH CurrentQtrSales AS
 	FROM	
 		sales
 	GROUP BY
-		EXTRACT(QUARTER FROM orderdate), EXTRACT(YEAR FROM orderdate), CurrentQtr
-	ORDER BY
-		EXTRACT(YEAR FROM orderdate) DESC, EXTRACT(QUARTER FROM orderdate) DESC),
+		EXTRACT(QUARTER FROM orderdate), EXTRACT(YEAR FROM orderdate), CurrentQtr),
 
 	PreviousQtrSales AS
 	(SELECT 
