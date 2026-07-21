@@ -15,9 +15,7 @@ WITH CurrentQtrMargin AS
 	WHERE
 		EXTRACT('YEAR' FROM(orderdate)) IN (2019, 2020)
 	GROUP BY
-		quarter_year, qtrdate,subcategory, EXTRACT(YEAR FROM orderdate), EXTRACT(QUARTER FROM orderdate)
-	ORDER BY
-		EXTRACT(YEAR FROM orderdate) DESC, EXTRACT(QUARTER FROM orderdate) DESC),
+		quarter_year, qtrdate,subcategory, EXTRACT(YEAR FROM orderdate), EXTRACT(QUARTER FROM orderdate)),
 
 	CurQtrVSPrevQtr AS
 	(SELECT
