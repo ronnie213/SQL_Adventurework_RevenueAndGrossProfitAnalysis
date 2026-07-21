@@ -1,4 +1,4 @@
-/* Objective: QoQ analysis for Revenue by subcategory by country */
+/* Objective: QoQ analysis for Revenue for top 3 contributor for subcategory by country */
 
 WITH CurrentQtrMargin AS
 	(SELECT
