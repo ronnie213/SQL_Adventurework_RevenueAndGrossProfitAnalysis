@@ -1,4 +1,4 @@
-/* Objective: QoQ analysis for Revenue by subcategory to analyse top contributors */
+/* Objective: QoQ analysis for Revenue by subcategory to analyse top contributors for 2019 and 2020*/
 
 WITH CurrentQtrMargin AS
 	(SELECT
