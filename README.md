@@ -1,5 +1,5 @@
 ## <p align="center"> 🚲 Adventurework QoQ Revenue and Gross Profit Analysis 🚲 </p>
-*This project analyses the root causes of the latest quarterly results’ variances using SQL and any recommendations for management to improve profitability.*
+*This project analyses the root causes of the latest quarterly results’ variances using SQL and recommendations for management to improve profitability.*
 
 ### 📊 Analysis Overview
 *1. Executive Summary \
