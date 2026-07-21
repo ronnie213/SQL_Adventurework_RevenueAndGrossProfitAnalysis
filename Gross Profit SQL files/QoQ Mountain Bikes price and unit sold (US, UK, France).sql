@@ -21,7 +21,7 @@ WITH
 		region on region.salesterritorykey = sales.salesterritorykey
 	WHERE
 		product.subcategory = 'Mountain Bikes'
-		AND region.country  IN ('United States')
+		AND region.country  IN ('United States','United Kingdom', 'France')
 	GROUP BY
 		qtrdate, qtr, country, subcategory, businesstype
 	ORDER BY
