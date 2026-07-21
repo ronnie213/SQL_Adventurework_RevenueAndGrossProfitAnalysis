@@ -43,7 +43,7 @@ WITH
 	FROM VAFORMAT
 	WHERE
 		EXTRACT('YEAR' FROM(qtrdate)) IN (2019, 2020)
-		AND subcategory IN ('Touring Bikes','Mountain Bikes','Road Frames')),
+		AND subcategory IN ('Mountain Bikes')),
 
 	Combinedtrxn AS
 	(SELECT
